@@ -19,6 +19,8 @@ pip install requirements.txt
 ```
 python -m jupyter notebook
 ```
+Look for "jupter_treatment > data_presentation.ipynb", in the jupter platform.
+
 ## running web application for the dash boards
 - running: 
 ```
