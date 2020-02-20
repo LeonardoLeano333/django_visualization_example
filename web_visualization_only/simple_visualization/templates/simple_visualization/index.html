@@ -1,0 +1,24 @@
+{% block content %}
+<h1>labels of heat map </h1>
+{% if data_indexes %}
+<ol>
+  {% for data_index in data_indexes %}
+    <li>
+      {{ data_index }}
+    </li>
+  {% endfor %}
+</ol>
+{% endif %}       
+{% endblock %}
+
+{% if heatmap %}
+<div style="width:600;height:500">
+{{ heatmap|safe }}
+</div>
+{% endif %}
+<h2> Scatter Plot  </h2>
+{% if scatter %}
+<div style="width:600;height:500">
+{{ scatter|safe }}
+</div>
+{% endif %}
