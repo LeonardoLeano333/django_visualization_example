@@ -1,3 +1,9 @@
+# WILL BE DEPRECATED
+Will be deprecated and add this functionality to django_sandbox
+
+-------------------------------------
+
+
 # How to Read:
 ## configure the environment:
 ```
